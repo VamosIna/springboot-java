@@ -13,8 +13,4 @@ public interface PointService {
     void addUserPoint(PointSourceEnum sourceName, UUID sourceId, Integer pointAmount);
     PointDto getUserPoint();
     List<PointDetailDto> getUserPointDetails();
-
-    // for QA
-    void addUserPointQa(Integer amount);
-    void resetUserPointQa();
 }
