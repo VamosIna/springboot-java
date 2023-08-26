@@ -3,7 +3,7 @@
 ## 1. Project Structure
 ---
 ```bash
-└── jalinappbackend
+└── jalinappbackendb
     ├── configuration                   => Contains configuration files for Spring Boot
     ├── exception                       => Contains custom exception files
     ├── module                          => Contains modules/features files
